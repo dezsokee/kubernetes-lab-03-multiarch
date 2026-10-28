@@ -377,6 +377,14 @@ Fork this repository, complete the setup above and run all three workflows.
 
 Then, update the README to include the link to the Docker Hub repository you published to.
 
+**Published Docker Hub repository:** <https://hub.docker.com/r/szabolcsdezso64532/multiarch-lab>
+
+| Tag                       | Platforms                    |
+| ------------------------- | ---------------------------- |
+| `python-arm64`            | `linux/arm64`                |
+| `csharp-multiarch-native` | `linux/amd64`, `linux/arm64` |
+| `csharp-multiarch-qemu`   | `linux/amd64`, `linux/arm64` |
+
 ---
 
 ## Further reading
